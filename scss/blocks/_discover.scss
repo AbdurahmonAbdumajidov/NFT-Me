@@ -1,0 +1,40 @@
+.discover {
+    &__wrapper {
+        display: flex;
+        position: absolute;
+        left: 80px;
+    }
+
+    &__title {
+        width: 100%;
+        max-width: 773px;
+        position: relative;
+        top: -530px;
+        left: 0;
+        font-weight: 400;
+        font-size: 84px;
+        line-height: 100px;
+        letter-spacing: 1px;
+        color: #ffffff;
+        padding-bottom: 22px;
+    }
+
+    &__text {
+        width: 100%;
+        max-width: 648px;
+        position: relative;
+        top: -520px;
+        left: 0;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 1px;
+        color: #e5e5e5;
+    }
+
+    &__img {
+        position: relative;
+        top: -180px;
+        right: -160px;
+    }
+}
